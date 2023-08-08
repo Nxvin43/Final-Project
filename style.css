@@ -1,0 +1,102 @@
+/* Reset default margin and padding */
+body, h1, h2, h3, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Set a consistent background color, text color, and font family */
+body {
+    background-color: #e5ecec;
+    color: #333;
+    font-family: Arial, sans-serif;
+
+}
+body {
+    background-image: url("g.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.main-content{
+    background-color: aqua;
+    color: #dd1dba;
+    font-family: cursive;
+    font-style: italic;
+}
+
+/* Header styles */
+header {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Navigation styles */
+nav ul {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #333;
+    transition: color 0.3s ease;
+}
+
+nav ul li a.active {
+    color: #007bff;
+}
+
+/* Footer styles */
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+    text-align: center;
+}
+
+/* Main content container */
+.main-content {
+    max-width: 960px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: #457daf;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+        background-image: url("banner.jpg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        background-position: center;
+    }
+}
+
+/* Button styles */
+.button {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+    margin-top: 20px;
+}
+
+.button:hover {
+    background-color: #0056b3;
+}
+
+/* Responsive media queries */
+@media (max-width: 768px) {
+    .main-content {
+        margin: 10px;
+        padding: 10px;
+    }
+}
